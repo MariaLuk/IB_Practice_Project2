@@ -1,0 +1,24 @@
+Virus strain:  A/Hong Kong/4801/2014 (H3N2)
+//What about vaccination against this strain:
+(Need toFind out what strains were in this season’s vaccine. Was that one of the flu strains covered by this vaccine?)
+// What about epitopes:
+Munoz, Deem 2004
+https://drive.google.com/file/d/1xe5-4LxIV4bO4mX6jhvrMAqtpOpkWsXm/view
+
+
+
+	1. Data for analysis
+>Download roommate's results (Illumina single-end sequencing run)
+Filename:
+http://ftp.sra.ebi.ac.uk/vol1/fastq/SRR170/001/SRR1705851/
+
+>Make fasta file with reference sequence
+Filename: reference.fasta
+https://www.ncbi.nlm.nih.gov/nuccore/KF848938.1?report=fasta
+
+>Download fastq data for the three controls (from sequencing of isogenic reference samples) from SRA FTP:
+using 
+wget <link>
+SRR1705858: ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR170/008/SRR1705858/SRR1705858.fastq.gz	saved as C58.fastq.gz
+SRR1705859: ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR170/009/SRR1705859/SRR1705859.fastq.gz 	saved as C59.fastq.gz
+SRR1705860: ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR170/000/SRR1705860/SRR1705860.fastq.gz 	saved as C60.fastq.gz
